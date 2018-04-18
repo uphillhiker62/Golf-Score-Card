@@ -1,25 +1,26 @@
 .card {
   display: flex;
   border: 1px solid black;
-  padding: 10px;
+  padding: 2px;
+  margin: 0 auto;
 }
-.card .left .pHead {
+.card .top .pHead {
   padding-left: 20px;
 }
-.card .right {
+.card .bottom {
   display: flex;
   overflow: auto;
 }
-.card .right .column {
+.card .bottom .holeRow {
   border: 1px solid #dadfea;
-  padding: 15px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.card .right .column .cHead {
+.card .bottom .holeRow .rowHead {
   padding-left: 5px;
 }
-.card .right .column .holeInput {
+.card .bottom .holeRow .holeInput {
   width: 15px;
 }
